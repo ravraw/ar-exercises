@@ -7,4 +7,9 @@ require_relative './exercise_4'
 puts "Exercise 5"
 puts "----------"
 
+@total = Store.sum('annual_revenue');
+puts " Total : #{@total}"
+puts "Averagen : #{@total / Store.count}"
+
+
 # Your code goes here ...
